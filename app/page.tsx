@@ -223,7 +223,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-semibold">Hairstylist</h3>
+                    <h3 className="text-xl font-semibold">Central Head</h3>
                     <p className="text-muted-foreground">HairMasters Salon</p>
                     <p className="text-sm text-muted-foreground">
                       Nov 2025 – Present | Jammu, J&K
@@ -267,9 +267,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-semibold">
-                      Stylist & Junior Stylist
-                    </h3>
+                    <h3 className="text-xl font-semibold">Stylist</h3>
                     <p className="font-semibold text-purple-700 dark:text-purple-300">
                       BBLUNT Khar, Mumbai
                     </p>
