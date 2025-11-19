@@ -75,7 +75,7 @@ export default function Home() {
                 <p className="text-xl font-semibold text-purple-700 dark:text-purple-200">
                   Tailored transformations for every hair story.
                 </p>
-                <p className="py-4 text-pretty text-center leading-relaxed text-muted-foreground">
+                <p className="py-4 text-pretty text-center leading-relaxed text-muted-foreground md:text-left">
                   Passionate hairstylist based in Jammu, Jammu & Kashmir with
                   extensive experience in hair styling, cutting, and coloring.
                   Currently working at HairMasters Salon in Jammu, I bring
@@ -210,7 +210,7 @@ export default function Home() {
       {/* Experience Section */}
       <section className="px-4 py-12 md:py-16">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="mb-8  text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
             Professional Experience
           </h2>
           <div className="space-y-6">
@@ -295,7 +295,7 @@ export default function Home() {
       {/* Certifications Section */}
       <section className="px-4 py-12 md:py-16 bg-gradient-to-b from-transparent to-purple-50/80 dark:to-purple-950/40">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="mb-8 text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
             Education & Certifications
           </h2>
 
