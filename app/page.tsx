@@ -154,8 +154,8 @@ export default function Home() {
       {/* Services Section */}
       <section className="px-4 py-10 md:py-16 bg-gradient-to-b from-purple-50/70 via-rose-50/40 to-transparent dark:from-purple-950/30 dark:via-rose-950/10">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            Expertise & Services
+          <h2 className="mb-8 text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-left">
+            Expertise
           </h2>
           <div className="grid gap-6 md:grid-cols-3">
             <Card className="border-none bg-white/80 shadow-lg shadow-purple-200 dark:bg-gray-950/60 dark:shadow-purple-900/20">
