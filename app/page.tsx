@@ -151,58 +151,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Services Section */}
-      <section className="px-4 py-10 md:py-16 bg-gradient-to-b from-purple-50/70 via-rose-50/40 to-transparent dark:from-purple-950/30 dark:via-rose-950/10">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="mb-8 text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-left">
-            Expertise
-          </h2>
-          <div className="grid gap-6 md:grid-cols-3">
-            <Card className="border-none bg-white/80 shadow-lg shadow-purple-200 dark:bg-gray-950/60 dark:shadow-purple-900/20">
-              <CardContent className="flex flex-col items-center p-6 text-center">
-                <div className="mb-4 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 p-4 shadow-lg shadow-purple-500/30">
-                  <Scissors className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="mb-2 text-xl font-semibold text-purple-700 dark:text-purple-200">
-                  Hair Styling & Cutting
-                </h3>
-                <p className="text-pretty text-muted-foreground">
-                  Expert precision cuts and contemporary styling techniques for
-                  all hair types. Specializing in bobs and curly hair.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="border-none bg-white/80 shadow-lg shadow-pink-200 dark:bg-gray-950/60 dark:shadow-pink-900/20">
-              <CardContent className="flex flex-col items-center p-6 text-center">
-                <div className="mb-4 rounded-full bg-gradient-to-br from-pink-500 to-fuchsia-500 p-4 shadow-lg shadow-pink-500/30">
-                  <Sparkles className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="mb-2 text-xl font-semibold text-pink-600 dark:text-pink-200">
-                  Hair Coloring & Crazy Colours
-                </h3>
-                <p className="text-pretty text-muted-foreground">
-                  Certified in Wella Illumina, Koleston Perfect, Color Touch &
-                  L'Oréal color systems. Expert in bold, vibrant colours.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="border-none bg-white/80 shadow-lg shadow-fuchsia-200 dark:bg-gray-950/60 dark:shadow-fuchsia-900/20">
-              <CardContent className="flex flex-col items-center p-6 text-center">
-                <div className="mb-4 rounded-full bg-gradient-to-br from-fuchsia-500 to-purple-500 p-4 shadow-lg shadow-fuchsia-500/30">
-                  <Award className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="mb-2 text-xl font-semibold text-fuchsia-600 dark:text-fuchsia-200">
-                  Hair Treatment & Care
-                </h3>
-                <p className="text-pretty text-muted-foreground">
-                  Advanced hair care treatments with premium products from
-                  Davines, L'Oréal Professional, and Wella
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Experience Section */}
       <section className="px-4 py-12 md:py-16">
@@ -473,7 +421,58 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      {/* Services Section */}
+      <section className="px-4 py-10 md:py-16 bg-gradient-to-b from-purple-50/70 via-rose-50/40 to-transparent dark:from-purple-950/30 dark:via-rose-950/10">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="mb-8 text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-left">
+            Expertise
+          </h2>
+          <div className="grid gap-6 md:grid-cols-3">
+            <Card className="border-none bg-white/80 shadow-lg shadow-purple-200 dark:bg-gray-950/60 dark:shadow-purple-900/20">
+              <CardContent className="flex flex-col items-center p-6 text-center">
+                <div className="mb-4 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 p-4 shadow-lg shadow-purple-500/30">
+                  <Scissors className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="mb-2 text-xl font-semibold text-purple-700 dark:text-purple-200">
+                  Hair Styling & Cutting
+                </h3>
+                <p className="text-pretty text-muted-foreground">
+                  Expert precision cuts and contemporary styling techniques for
+                  all hair types. Specializing in bobs and curly hair.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="border-none bg-white/80 shadow-lg shadow-pink-200 dark:bg-gray-950/60 dark:shadow-pink-900/20">
+              <CardContent className="flex flex-col items-center p-6 text-center">
+                <div className="mb-4 rounded-full bg-gradient-to-br from-pink-500 to-fuchsia-500 p-4 shadow-lg shadow-pink-500/30">
+                  <Sparkles className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="mb-2 text-xl font-semibold text-pink-600 dark:text-pink-200">
+                  Hair Coloring & Crazy Colours
+                </h3>
+                <p className="text-pretty text-muted-foreground">
+                  Certified in Wella Illumina, Koleston Perfect, Color Touch &
+                  L'Oréal color systems. Expert in bold, vibrant colours.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="border-none bg-white/80 shadow-lg shadow-fuchsia-200 dark:bg-gray-950/60 dark:shadow-fuchsia-900/20">
+              <CardContent className="flex flex-col items-center p-6 text-center">
+                <div className="mb-4 rounded-full bg-gradient-to-br from-fuchsia-500 to-purple-500 p-4 shadow-lg shadow-fuchsia-500/30">
+                  <Award className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="mb-2 text-xl font-semibold text-fuchsia-600 dark:text-fuchsia-200">
+                  Hair Treatment & Care
+                </h3>
+                <p className="text-pretty text-muted-foreground">
+                  Advanced hair care treatments with premium products from
+                  Davines, L'Oréal Professional, and Wella
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
       {/* Contact Section */}
       <section className="px-4 py-12 md:py-16 lg:py-20">
         <div className="mx-auto max-w-4xl text-center">
