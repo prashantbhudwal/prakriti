@@ -348,7 +348,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-semibold">
-                        Haircare, Styling, Advance Hair Care
+                        Styling, Advance Hair Care
                       </p>
                       <p className="text-sm text-muted-foreground">
                         Davines Group (Mar 2019)
