@@ -69,9 +69,6 @@ export default function Home() {
           <div className="mt-12 w-full rounded-3xl border border-white/70 bg-white/80 p-6 shadow-lg shadow-purple-500/20 backdrop-blur dark:border-purple-800/60 dark:bg-purple-950/50">
             <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
               <div className="w-full text-center sm:max-w-sm sm:text-left">
-                <p className="text-sm uppercase tracking-wide text-muted-foreground">
-                  Creative Philosophy
-                </p>
                 <p className="text-xl font-semibold text-purple-700 dark:text-purple-200">
                   Tailored transformations for every hair story.
                 </p>
@@ -211,7 +208,7 @@ export default function Home() {
       <section className="px-4 py-12 md:py-16">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-8  text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            Professional Experience
+            Experience
           </h2>
           <div className="space-y-6">
             <Card className="border-purple-200 dark:border-purple-800">
@@ -296,7 +293,7 @@ export default function Home() {
       <section className="px-4 py-12 md:py-16 bg-gradient-to-b from-transparent to-purple-50/80 dark:to-purple-950/40">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-8 text-3xl font-bold md:text-4xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            Education & Certifications
+            Education
           </h2>
 
           <div className="mb-6">
